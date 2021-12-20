@@ -14,4 +14,4 @@ STEPS TO TEST THE SERVER
 
 npm run test
 
-NOTE - PLEASE setup all the dev dependency before setup
+NOTE - Please setup all the dev dependency before setup
