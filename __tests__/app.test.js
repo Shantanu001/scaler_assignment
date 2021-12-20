@@ -40,7 +40,7 @@ describe("POST /findServer",()=>{
         )
         let matchingObject = {
             "success": true,
-            "message": "All servers are offLine",
+            "message": "All servers are offline",
             "result": []
         };
         expect(response.body).toMatchObject(matchingObject);

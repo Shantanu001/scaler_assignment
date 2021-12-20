@@ -4,6 +4,8 @@ const router = express.Router();
 
 const {findServer} = require("../controllers/mainController");
 
+
+//mapping routes to corresponding function
 router.route("/findServer").post(findServer);
 
 

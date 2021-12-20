@@ -12,6 +12,7 @@ process.on("uncaughtException",err=>{
     process.exit(1);
 })
 
+// creating server to listen to port 
 const server = app.listen(process.env.PORT,()=>{
     console.log(`server running on ${process.env.PORT}`);
 });
