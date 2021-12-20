@@ -20,7 +20,7 @@ exports.findServer = async (req, res, next) => {
           cb();
         })
         .catch((error) => {
-          console.log(error);
+          //console.log(error);
           cb();
         });
     },
